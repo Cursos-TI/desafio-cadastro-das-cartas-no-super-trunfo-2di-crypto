@@ -29,7 +29,7 @@ int main() {
     int numerosdepontosturisticos;
 
     // Entrada de dados
-    printf("Codigo da cidade (EX: A01): \n");
+    printf("Codigo da cidade (EX: A01,A02,B01,B02): \n");
     scanf("%s", codigo); 
 
     printf("Nome da cidade: \n");
