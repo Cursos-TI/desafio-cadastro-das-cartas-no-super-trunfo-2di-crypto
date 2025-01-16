@@ -19,8 +19,9 @@ int main() {
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
 //estrutura das cartas
-            printf("JOGO DE CARTA SUPER TRUNFO: \n");
-har codigo[6]; 
+            printf("=======JOGO DE CARTA SUPER TRUNFO======: \n");
+
+    char codigo[6];
     char nome[50];
     int populacao;
     float area;
