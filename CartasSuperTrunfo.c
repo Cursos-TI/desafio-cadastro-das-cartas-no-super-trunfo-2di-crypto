@@ -18,19 +18,42 @@ int main() {
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
+//estrutura das cartas
+            printf("JOGO DE CARTA SUPER TRUNFO: \n");
+har codigo[6]; 
+    char nome[50];
+    int populacao;
+    float area;
+    float pib;
+    int numerosdepontosturisticos;
 
-            printf("JOGO DE CARTA SUPER TRUNFO\n");
+    // Entrada de dados
+    printf("Codigo da cidade (EX: A01): \n");
+    scanf("%s", codigo); 
 
-            char codigo;
+    printf("Nome da cidade: \n");
+    scanf("%s", nome); 
 
+    printf("Populacao (em milhares): \n");
+    scanf("%d", &populacao);
 
-            printf("codigo da cidade (EX: A01): \n");
-            scanf("%S", codigo);
+    printf("Area (em km²): \n");
+    scanf("%f", &area);
 
+    printf("PIB (em milhoes de reais): \n");
+    scanf("%f", &pib);
 
+    printf("Numero de pontos turisticos: \n");
+    scanf("%d", &numerosdepontosturisticos);
 
-
-
+    // Saída de dados
+    printf("\nCodigo da cidade: %s \n", codigo);
+    printf("Nome da cidade: %s \n", nome);
+    printf("Populacao: %d \n", populacao);
+    printf("Area: %.2f km² \n", area); // Formatação com 2 casas decimais
+    printf("PIB: %.2f milhoes de reais \n", pib); // Formatação com 2 casas decimais
+    printf("Numero de pontos turisticos: %d \n", numerosdepontosturisticos);
 
     return 0;
 }
+
