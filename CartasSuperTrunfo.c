@@ -19,27 +19,13 @@ int main() {
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
 
-    //estrutura para representar uma carta de cidade
+            printf("JOGO DE CARTA SUPER TRUNFO\n");
 
-        char codigo[5];
-        char nome[50];
-        int populaçao;
-        float pib;
-        int pontosturisticos;
+            char codigo;
 
 
-
-
-        printf("codigo da cidade (EX: A01): ");
-        scanf("%s", &codigo);
-
-
-
-
-
-
-
-
+            printf("codigo da cidade (EX: A01): \n");
+            scanf("%S", codigo);
 
 
 
