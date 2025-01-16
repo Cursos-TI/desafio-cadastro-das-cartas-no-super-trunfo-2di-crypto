@@ -21,5 +21,19 @@ int main() {
 
     printf("jogo de cartas super trunfo paises");
 
+    
+        char codigo;
+        char nome[50];
+        int populaçao;
+        float pib;
+        int pontosturisticos;
+
+        
+
+
+
+
+
+
     return 0;
 }
