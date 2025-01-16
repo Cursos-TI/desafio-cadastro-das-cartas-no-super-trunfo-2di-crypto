@@ -19,16 +19,27 @@ int main() {
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
 
-    printf("jogo de cartas super trunfo paises");
+    //estrutura para representar uma carta de cidade
 
-    
-        char codigo;
+        char codigo[5];
         char nome[50];
         int populaçao;
         float pib;
         int pontosturisticos;
 
-        
+
+
+
+        printf("codigo da cidade (EX: A01): ");
+        scanf("%s", &codigo);
+
+
+
+
+
+
+
+
 
 
 
