@@ -51,6 +51,11 @@ int main() {
     printf("Numero de pontos turisticos: \n");
     scanf("%d", &numerosdepontosturisticos);
 
+    // operaçao divisao
+    densidade_populacional = populacao / area;
+    pib_per_capita = pib / populacao;
+
+
     // Saída de dados
     printf("\nCodigo da cidade: %s \n", codigo);
     printf("Nome da cidade: %s \n", nome);
