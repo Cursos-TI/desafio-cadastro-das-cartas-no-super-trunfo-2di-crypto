@@ -63,7 +63,8 @@ int main() {
     printf("Area: %.2f km² \n", area); // Formatação com 2 casas decimais
     printf("PIB: %.2f milhoes de reais \n", pib); // Formatação com 2 casas decimais
     printf("Numero de pontos turisticos: %d \n", numerosdepontosturisticos);
-
+    printf("Densidade populacional: %.2f habitantes/km²\n", densidade_populacional);
+    printf("PIB per capita: %.2f milhoes de reais\n", pib_per_capita);
     return 0;
 }
 
