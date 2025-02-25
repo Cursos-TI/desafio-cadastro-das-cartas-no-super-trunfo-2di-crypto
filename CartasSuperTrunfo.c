@@ -28,6 +28,10 @@ int main() {
     float pib;
     int numerosdepontosturisticos;
 
+    //entrada de dados para variavel float
+    float densidade_populacional;
+    float pib_per_capita;
+
     // Entrada de dados
     printf("Codigo da cidade (EX: A01,A02,B01,B02): \n");
     scanf("%s", codigo); 
